@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+<div class="header">
+  <h1>Guess the Catering Cost</h1>
+</div>
+
+<div class="instructions">
+  <h2> HOW TO PLAY THE GAME </h2>
+  </br>
+  <ol>
+        <li>The total cost of your R.S.V.P Catering Experince is between 19-120 dollars.</li>
+        <li>There are four food options below.</li>
+            <li>You want to order the correct of Entrees, Appertizers, and Desserts so it adds up to the TAB.</li>
+            <li>If your order adds up to the exact total tab, you win the round and the meal is on us.</li>
+            <li>If you over order, you lose the game and owe us some cash.</li>
+            <li>The cost of each food item changes each round, each item cost between 1-12 dollars.</li>
+            <li>Check out R.S.V.P catering for more food.</li>
+  </ol>
+</div>
+<div class="match">
+  <h3> Food TAB COST TO GUESS: <span id= "RNS"></span>
+  </h3> 
+</div>
+  <div class="playerbutton">
+    <h3>You Total Food Tab is: <span id="PB"></span>
+    </h3>
+    </div>
+
+
+<div class="winsAndLosses">
+  <h4>Wins: 
+      <span id = "numberWins"></span>
+      </br>
+       Losses:
+        <span id = "numberLosses"></span>
+  </h4>
+  </div>
+  <div class="food">
+    <img src="assets/images/button1.jpg" class=foodimage id="one" alt="food one">
+    <img src="assets/images/button2.jpg" class=foodimage id="two" alt="food two">
+    <img src="assets/images/button3.jpg" class=foodimage id="three" alt="food three">
+    <img src="assets/images/button4.jpg" class=foodimage id="four" alt="food four">
+  </div>
+ 
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.js"
+    integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+    crossorigin="anonymous">
+    </script>
+    <script src="assets/javascript/game.js">
+    </script>
+
+</body>
+</html>

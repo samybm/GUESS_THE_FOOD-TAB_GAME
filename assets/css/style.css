@@ -1,6 +1,8 @@
 /* General Elements*/
 body{
-	background-image: url("../images/background2.jpg")
+	background-image: url("../images/background2.jpg");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 div{
 	background-color: white;
@@ -26,7 +28,7 @@ ul {
 	text-indent: 20px;
 }
 /* Specfic Elements*/
-div.header, div.gems{
+div.header, div.food{
 	background-color: #e0e0eb;
 }
 div.header, div.instructions{
@@ -42,23 +44,10 @@ div.header, div.instructions{
 	width: 15%;
 	height: 60px;
 }
-.gems{
+.food{
 	clear: both;
 }
-.gemImage{
+.foodimage{
 	height: 60px;
 	margin: 10px;
-}
-/* IDs */
-#blue{
-	color: #3092c7;
-}
-#green{
-	color: #00aa59;
-}
-#red{
-	color: #ec4b5f;
-}
-#yellow{
-	color: #ffc225;
 }
