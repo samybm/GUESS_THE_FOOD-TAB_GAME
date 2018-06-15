@@ -40,9 +40,9 @@ let losses = 0;
  
  // func that adds wins userTotal
  function wintotal (){
-    alert("You Won");
+    alert ("You Won, CONGRATS!");
     wins++;
-    $('numbersWins').text(wins);
+    $('#numberWins').text(wins);
     reset();
  }
 
